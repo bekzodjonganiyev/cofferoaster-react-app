@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./Components/Header/Header"
+import Hero from "./Components/Hero/Hero"
+import Advertising from "./Components/Advertising/script";
+import Product from "./Components/ProductsSection/script";
+import Manual from "./Components/Manual/script";
+
+
+
+
+// import "./Components/Header/header.css"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header  display="display-bock-header"/>
+      <Hero
+        title={"Great coffee made simple."}
+        text={"Start your mornings with the world’s best coffees. Try our expertly curated artisan coffees from our best roasters delivered directly to your door, at your schedule."} />
+      <Advertising />
+      <Product />
+      <Manual />
+      <Header bgColor="black" textColor="text-color"  display="display-bock-footer"/>
     </div>
   );
 }

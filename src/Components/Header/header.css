@@ -1,0 +1,25 @@
+.header {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.black{
+    background-color: black;
+}
+
+.text-color{
+    color: white;
+}
+
+.display-block-header{
+    display: none;
+}
+
+.display-block-footer{
+    display: block;
+    margin-left: 700px;
+}

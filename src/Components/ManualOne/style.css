@@ -1,0 +1,33 @@
+.manual-one {
+    margin-right: 50px;
+}
+
+.manual-one:last-child {
+    margin-right: 0;
+}
+
+.big-title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+}
+
+.manual-title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+    width: 255px;
+}
+
+.manual-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    width: 285px;
+}

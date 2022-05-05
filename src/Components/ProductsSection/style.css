@@ -1,0 +1,37 @@
+.product {
+    background-color: rgb(27, 27, 27);
+    border-radius: 10px;
+    height: 500px;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}
+
+.main-title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #FEFCF7;
+}
+
+.main-text {
+    margin: 0 auto;
+    width: 540px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.products {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 80px;
+    padding: 0 50px;
+}

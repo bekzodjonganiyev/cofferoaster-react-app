@@ -1,0 +1,39 @@
+.hero {
+    padding: 100px;
+    height: 400px;
+    background-color: #A2A2A2;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.title {
+    width: 493px;
+    font-weight: 900;
+    font-size: 72px;
+    color: #FEFCF7;
+    margin-bottom: 10px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.text {
+    width: 455px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+}
+
+.btn {
+    border: none;
+    background: #0E8784;
+    border-radius: 6px;
+    color: white;
+    padding: 15px 25px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+
+}
